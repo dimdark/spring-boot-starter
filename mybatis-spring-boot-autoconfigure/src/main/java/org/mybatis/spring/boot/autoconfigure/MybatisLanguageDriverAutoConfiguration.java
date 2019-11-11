@@ -105,6 +105,7 @@ public class MybatisLanguageDriverAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
+    // todo wjh 测试下该注解作用在方法上具体有啥效果
     @ConfigurationProperties(CONFIGURATION_PROPERTY_PREFIX + ".velocity")
     public VelocityLanguageDriverConfig velocityLanguageDriverConfig() {
       return VelocityLanguageDriverConfig.newInstance();

@@ -93,6 +93,9 @@ public class MybatisProperties {
    * A Configuration object for customize default settings. If {@link #configLocation} is specified, this property is
    * not used.
    */
+  /**
+   * todo wjh 测试下这个注解的作用
+   */
   @NestedConfigurationProperty
   private Configuration configuration;
 
