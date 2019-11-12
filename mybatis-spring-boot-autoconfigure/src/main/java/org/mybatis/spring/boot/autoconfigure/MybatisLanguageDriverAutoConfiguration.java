@@ -32,6 +32,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * {@link EnableAutoConfiguration Auto-Configuration} for MyBatis's scripting language drivers.
+ * 语言驱动Bean配置
  *
  * @author Kazuki Shimizu
  * @since 2.1.0

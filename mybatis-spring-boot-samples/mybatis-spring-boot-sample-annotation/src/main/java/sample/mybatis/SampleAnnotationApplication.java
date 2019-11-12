@@ -34,6 +34,9 @@ public class SampleAnnotationApplication implements CommandLineRunner {
     this.cityMapper = cityMapper;
   }
 
+  /**
+   * CommandLineRunner主要用来在项目服务启动时执行一些初始化操作
+   */
   @Override
   @SuppressWarnings("squid:S106")
   public void run(String... args) {
